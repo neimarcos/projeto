@@ -17,6 +17,7 @@ nx.draw_networkx_edges(
     G,
     pos,
     edgelist=[(0, 1),(0, 5),(1, 2),(1, 5),(2, 3),(2, 4),(2, 5),(3, 4),(4, 5)],
+  
     width=3,
     alpha=0.5,
     edge_color="tab:green",
